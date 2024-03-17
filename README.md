@@ -1,12 +1,18 @@
 1. Descargar y descomprimir en un directorio el proyecto del siguiente repositorio:
 
+https://github.com/HectorCallan/reto_culqi.git
 
+o
+
+https://github.com/HectorCallan/reto_culqi
 
 2. En una ventana de comandos posicionarse en la carpeta donde se descargo los archivos y ejecutar los siguientes pasos:
 
 npm install 
 
-3. En la misma ventana de comandos ejecutar el siguiente comando para iniciar el servidor.
+3. Levantar un docker con redis instalado, en este caso se ha utilizado "some-redis" conectado al puerto 6379 ya que se realizo desde una plataforma windows y Redis solo funciona correctamente desde Linux.
+
+4. En la misma ventana de comandos ejecutar el siguiente comando para iniciar el servidor.
 
 node index.js
 
